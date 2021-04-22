@@ -9,7 +9,6 @@ tfds.disable_progress_bar()
 dataset, info = tfds.load('oxford_iiit_pet:3.*.*', with_info=True)
 
 
-
 # gpus = tf.config.experimental.list_physical_devices('GPU')
 # if gpus:
 #   try:
